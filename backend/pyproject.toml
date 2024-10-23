@@ -66,3 +66,10 @@ ignore = [
 [tool.ruff.lint.pyupgrade]
 # Preserve types, even if a file imports `from __future__ import annotations`.
 keep-runtime-typing = true
+
+# =================  __nao__  ===================
+[env]
+location = "D:\\work\\vscode\\git\\full-stack-fastapi-template\\backend\\venv"
+
+[tool.hatch.envs]
+fastapi_tmpl = { type = "virtual", path = "D:/work/vscode/git/full-stack-fastapi-template/backend/venv" }
